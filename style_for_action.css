@@ -1,0 +1,73 @@
+.text-for-collection>p {
+    margin: 0.1em;
+}
+
+
+
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(12,1fr) ;
+    grid-template-rows:repeat(6) ;
+}   
+
+.place_first{
+    width: 120%;
+    grid-column: 2/6;
+   
+}
+
+.place_second{
+    max-width: 120%;
+    grid-column: 8/12;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style:none;
+    margin: 20%;
+}
+
+
+
+.card:hover{
+    border-style: solid;
+    background-color:rgb(216, 204, 185);
+}
+
+
+
+.text-under-item{
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.button{
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: groove;
+}
+
+
+.button:hover{
+    border-style: double;
+}
+
+.aaa>img{
+    height: 100%;
+}
+
+
+@media(max-width:700px){
+    .aaa>img{
+        width: 100%;
+    }
+    
+
+}
